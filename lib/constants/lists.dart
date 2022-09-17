@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/variables.dart';
-import 'package:food_app/models/item_model.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/variables.dart';
+import 'package:restaurant_food_delivery_app_ui/models/item_model.dart';
 
 List<ItemModel> sushiFoodsList = [
   ItemModel.createItem(

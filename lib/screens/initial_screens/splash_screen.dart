@@ -1,10 +1,10 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/screens/home_screens/main_screens/home_screen.dart';
-import 'package:food_app/screens/regestration_screens/login_sign_up_screen.dart';
-import 'package:food_app/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/main_screens/home_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/regestration_screens/login_sign_up_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {

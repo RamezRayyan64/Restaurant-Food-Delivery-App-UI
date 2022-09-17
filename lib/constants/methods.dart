@@ -2,9 +2,9 @@
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/constants/variables.dart';
-import 'package:food_app/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/variables.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
 
 void snackBarMessage(BuildContext context, String text) {
   ScaffoldMessenger.of(context).showSnackBar(SnackBar(

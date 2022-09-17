@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/constants/lists.dart';
-import 'package:food_app/constants/methods.dart';
-import 'package:food_app/constants/modal_bottom_sheets.dart';
-import 'package:food_app/constants/variables.dart';
-import 'package:food_app/models/item_model.dart';
-import 'package:food_app/screens/home_screens/sub_screens/home_item_details_screen.dart';
-import 'package:food_app/screens/home_screens/sub_screens/my_cart_screen.dart';
-import 'package:food_app/screens/home_screens/sub_screens/search_screen.dart';
-import 'package:food_app/screens/home_screens/sub_screens/setting_screen.dart';
-import 'package:food_app/utilities/size_config.dart';
-import 'package:food_app/widgets/home_widgets/tab_bar_view_items.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/lists.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/methods.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/modal_bottom_sheets.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/variables.dart';
+import 'package:restaurant_food_delivery_app_ui/models/item_model.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/home_item_details_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/my_cart_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/search_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/setting_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/tab_bar_view_items.dart';
 
 class HomeScreen extends StatefulWidget {
   static const id = '/home_screen';

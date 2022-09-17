@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.team.af" "\0"
-            VALUE "FileDescription", "food_app" "\0"
+            VALUE "FileDescription", "restaurant_food_delivery_app_ui" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "food_app" "\0"
+            VALUE "InternalName", "restaurant_food_delivery_app_ui" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.team.af. All rights reserved." "\0"
-            VALUE "OriginalFilename", "food_app.exe" "\0"
-            VALUE "ProductName", "food_app" "\0"
+            VALUE "OriginalFilename", "restaurant_food_delivery_app_ui.exe" "\0"
+            VALUE "ProductName", "restaurant_food_delivery_app_ui" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

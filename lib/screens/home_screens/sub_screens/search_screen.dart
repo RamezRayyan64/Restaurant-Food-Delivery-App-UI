@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/constants/lists.dart';
-import 'package:food_app/models/item_model.dart';
-import 'package:food_app/screens/home_screens/main_screens/home_screen.dart';
-import 'package:food_app/utilities/size_config.dart';
-import 'package:food_app/widgets/home_widgets/app_bar_title_widget.dart';
-import 'package:food_app/widgets/home_widgets/back_button_widget.dart';
-import 'package:food_app/widgets/home_widgets/tab_bar_view_items.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/lists.dart';
+import 'package:restaurant_food_delivery_app_ui/models/item_model.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/main_screens/home_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/app_bar_title_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/back_button_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/tab_bar_view_items.dart';
 
 class SearchScreen extends StatefulWidget {
   static const id = '/search_screen';

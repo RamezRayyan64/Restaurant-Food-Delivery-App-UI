@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1086000464871:android:0fc890d023d0ef64d77342",
         "android_client_info": {
-          "package_name": "com.team.af.food_app"
+          "package_name": "com.team.af.restaurant_food_delivery_app_ui"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "1086000464871-qnv1itj5letdd4uh9mf5m70jpl0rpocd.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.team.af.food_app",
+            "package_name": "com.team.af.restaurant_food_delivery_app_ui",
             "certificate_hash": "8a1bbf9470cc730fe2605b541f8f6ff08ee28877"
           }
         },

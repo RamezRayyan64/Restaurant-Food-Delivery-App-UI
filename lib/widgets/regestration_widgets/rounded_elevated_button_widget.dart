@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
 
 class RoundedElevatedButtonWidget extends StatelessWidget {
   final String text;

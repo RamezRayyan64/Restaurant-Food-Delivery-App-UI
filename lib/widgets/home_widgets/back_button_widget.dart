@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
 
 class BackIconButtonWidget extends StatelessWidget {
   final Function() onPressed;

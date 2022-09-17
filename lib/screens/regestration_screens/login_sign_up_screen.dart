@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/constants/lists.dart';
-import 'package:food_app/constants/methods.dart';
-import 'package:food_app/constants/modal_bottom_sheets.dart';
-import 'package:food_app/screens/home_screens/main_screens/home_screen.dart';
-import 'package:food_app/utilities/size_config.dart';
-import 'package:food_app/widgets/regestration_widgets/rounded_elevated_button_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/lists.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/methods.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/modal_bottom_sheets.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/main_screens/home_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/regestration_widgets/rounded_elevated_button_widget.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginSignUpScreen extends StatefulWidget {

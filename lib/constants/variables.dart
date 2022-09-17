@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:food_app/models/user_model.dart';
+import 'package:restaurant_food_delivery_app_ui/models/user_model.dart';
 
 final referenceDatabase = FirebaseDatabase.instance.ref();
 final firebaseAuth = FirebaseAuth.instance;

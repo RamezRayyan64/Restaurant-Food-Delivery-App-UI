@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/constants/lists.dart';
-import 'package:food_app/constants/methods.dart';
-import 'package:food_app/models/item_model.dart';
-import 'package:food_app/screens/home_screens/sub_screens/payment_screen.dart';
-import 'package:food_app/utilities/size_config.dart';
-import 'package:food_app/widgets/home_widgets/app_bar_title_widget.dart';
-import 'package:food_app/widgets/home_widgets/back_button_widget.dart';
-import 'package:food_app/widgets/home_widgets/purchase_items_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/lists.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/methods.dart';
+import 'package:restaurant_food_delivery_app_ui/models/item_model.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/payment_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/app_bar_title_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/back_button_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/purchase_items_widget.dart';
 
 class MyCartScreen extends StatefulWidget {
   static const id = '/my_cart_screen';

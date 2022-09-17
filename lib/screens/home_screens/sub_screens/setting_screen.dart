@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/constants/lists.dart';
-import 'package:food_app/screens/regestration_screens/login_sign_up_screen.dart';
-import 'package:food_app/utilities/size_config.dart';
-import 'package:food_app/widgets/home_widgets/app_bar_title_widget.dart';
-import 'package:food_app/widgets/home_widgets/back_button_widget.dart';
-import 'package:food_app/widgets/regestration_widgets/rounded_elevated_button_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/lists.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/regestration_screens/login_sign_up_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/app_bar_title_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/back_button_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/regestration_widgets/rounded_elevated_button_widget.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SettingScreen extends StatefulWidget {

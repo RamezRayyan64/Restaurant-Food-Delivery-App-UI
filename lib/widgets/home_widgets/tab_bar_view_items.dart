@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/models/item_model.dart';
-import 'package:food_app/screens/home_screens/main_screens/home_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/models/item_model.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/main_screens/home_screen.dart';
 
 class TabBarViewItems extends StatelessWidget {
   final List<ItemModel> itemsList;

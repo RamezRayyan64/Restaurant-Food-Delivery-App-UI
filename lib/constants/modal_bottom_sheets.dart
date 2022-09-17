@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/constants/lists.dart';
-import 'package:food_app/constants/variables.dart';
-import 'package:food_app/screens/regestration_screens/login_sign_up_screen.dart';
-import 'package:food_app/utilities/size_config.dart';
-import 'package:food_app/widgets/regestration_widgets/rounded_elevated_button_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/lists.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/variables.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/regestration_screens/login_sign_up_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/regestration_widgets/rounded_elevated_button_widget.dart';
 
 void forgotPasswordModalSheet(
   BuildContext context,

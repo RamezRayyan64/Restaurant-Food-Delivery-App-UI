@@ -1,16 +1,16 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/screens/home_screens/sub_screens/home_item_details_screen.dart';
-import 'package:food_app/screens/home_screens/main_screens/home_screen.dart';
-import 'package:food_app/screens/home_screens/sub_screens/my_cart_screen.dart';
-import 'package:food_app/screens/home_screens/sub_screens/payment_screen.dart';
-import 'package:food_app/screens/home_screens/sub_screens/search_screen.dart';
-import 'package:food_app/screens/home_screens/sub_screens/setting_screen.dart';
-import 'package:food_app/screens/initial_screens/splash_screen.dart';
-import 'package:food_app/screens/regestration_screens/login_sign_up_screen.dart';
-import 'package:food_app/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/home_item_details_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/main_screens/home_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/my_cart_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/payment_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/search_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/home_screens/sub_screens/setting_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/initial_screens/splash_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/screens/regestration_screens/login_sign_up_screen.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_app/constants/colors.dart';
-import 'package:food_app/constants/lists.dart';
-import 'package:food_app/constants/methods.dart';
-import 'package:food_app/models/item_model.dart';
-import 'package:food_app/utilities/size_config.dart';
-import 'package:food_app/widgets/home_widgets/purchase_items_widget.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/lists.dart';
+import 'package:restaurant_food_delivery_app_ui/constants/methods.dart';
+import 'package:restaurant_food_delivery_app_ui/models/item_model.dart';
+import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
+import 'package:restaurant_food_delivery_app_ui/widgets/home_widgets/purchase_items_widget.dart';
 
 class HomeItemDetailsScreen extends StatefulWidget {
   static String id = "/home_item_details";
