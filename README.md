@@ -17,7 +17,7 @@ An app that you can see a restaurant all foods and order foods then they will de
 
 ## Download App ![GitHub All Releases](https://img.shields.io/github/downloads/RamezRayyan64/Restaurant-Food-Delivery-App-UI/total?color=green)
 
-<a href="https://github.com/RamezRayyan64/Restaurant-Food-Delivery-App-UI/releases/tag/v1.0.0/app-release.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://github.com/RamezRayyan64/Restaurant-Food-Delivery-App-UI/releases/download/v1.0.0/app-release.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 
 ## Screenshots
 
