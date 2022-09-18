@@ -1,4 +1,3 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
@@ -13,8 +12,6 @@ import 'package:restaurant_food_delivery_app_ui/screens/regestration_screens/log
 import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
       statusBarColor: kBackgroundColor,
       statusBarIconBrightness: Brightness.dark,

@@ -1,9 +1,7 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:restaurant_food_delivery_app_ui/constants/colors.dart';
-import 'package:restaurant_food_delivery_app_ui/constants/variables.dart';
 import 'package:restaurant_food_delivery_app_ui/utilities/size_config.dart';
 
 void snackBarMessage(BuildContext context, String text) {
@@ -35,43 +33,43 @@ void snackBarMessage(BuildContext context, String text) {
       )));
 }
 
-Future<bool> createUserWithEmailAndPassword(BuildContext context,
-    String fullname, String email, String password) async {
-  try {
-    await firebaseAuth
-        .createUserWithEmailAndPassword(email: email, password: password)
-        .whenComplete(() {
-      User? currentUser = firebaseAuth.currentUser!;
-      currentUser.sendEmailVerification().whenComplete(() {
-        currentUser.updateDisplayName(fullname);
-      });
-    });
-    return true;
-  } on FirebaseAuthException catch (e) {
-    snackBarMessage(context, e.toString());
-    return false;
-  }
-}
+// Future<bool> createUserWithEmailAndPassword(BuildContext context,
+//     String fullname, String email, String password) async {
+//   try {
+//     await firebaseAuth
+//         .createUserWithEmailAndPassword(email: email, password: password)
+//         .whenComplete(() {
+//       User? currentUser = firebaseAuth.currentUser!;
+//       currentUser.sendEmailVerification().whenComplete(() {
+//         currentUser.updateDisplayName(fullname);
+//       });
+//     });
+//     return true;
+//   } on FirebaseAuthException catch (e) {
+//     snackBarMessage(context, e.toString());
+//     return false;
+//   }
+// }
 
-Future<bool> signInWithEmailAndPassword(
-    BuildContext context, String emailAddress, String password) async {
-  try {
-    await firebaseAuth
-        .signInWithEmailAndPassword(email: emailAddress, password: password)
-        .whenComplete(() async {
-      var user = firebaseAuth.currentUser;
-      await user!.reload();
-      if (!user.emailVerified) {
-        snackBarMessage(context, 'Please verify your Email address');
-        return;
-      }
-    });
-    return true;
-  } on FirebaseAuthException catch (e) {
-    snackBarMessage(context, e.toString());
-    return false;
-  }
-}
+// Future<bool> signInWithEmailAndPassword(
+//     BuildContext context, String emailAddress, String password) async {
+//   try {
+//     await firebaseAuth
+//         .signInWithEmailAndPassword(email: emailAddress, password: password)
+//         .whenComplete(() async {
+//       var user = firebaseAuth.currentUser;
+//       await user!.reload();
+//       if (!user.emailVerified) {
+//         snackBarMessage(context, 'Please verify your Email address');
+//         return;
+//       }
+//     });
+//     return true;
+//   } on FirebaseAuthException catch (e) {
+//     snackBarMessage(context, e.toString());
+//     return false;
+//   }
+// }
 
 String getItemInfo(List itemsList, int index) {
   String itemInfo = '';
